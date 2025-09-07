@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onam Poster</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(to bottom, #fff8dc, #f4e1a1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .poster {
+        width: 80%;
+        max-width: 700px;
+        padding: 80px 30px 30px;
+        text-align: center;
+        border: 10px solid #ff9933;
+        border-radius: 20px;
+        background: #fff;
+        position: relative;
+      }
+      .poster::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        bottom: -20px;
+        border: 5px dashed #228b22;
+        border-radius: 30px;
+        pointer-events: none;
+      }
+      h1 {
+        font-size: 2.5rem;
+        color: #d97706;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px #ffd700;
+      }
+      h2 {
+        font-size: 1.5rem;
+        color: #228b22;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .flower {
+        font-size: 3rem;
+        margin: 10px;
+      }
+      .mahabali {
+        width: 180px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .kathakali {
+        width: 100px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .footer {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #b91c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="poster">
+      <div class="flower">🌸 🌼 🌺</div>
+      <h1>🌸 Happy Onam 🌸</h1>
+      <img src="mahabali.jpg" alt="Mahabali" class="mahabali" />
+      <img src="kathakali.jpg" alt="kathakali" class="kathakali" />
+      <h2>Wishing you joy, prosperity, and togetherness</h2>
+      <p>
+        🌺 May your life bloom like a Pookalam,<br />
+        🌾 May your home be filled with harvest and happiness,<br />
+        🥳 May your heart dance with joy and harmony,<br />
+        ✨ This Onam, let’s celebrate love, unity, and togetherness! ✨
+      </p>
+      <div class="flower">🌸 🌼 🌺</div>
+      <div class="footer">Celebrate Onam with Family & Friends 🎉</div>
+    </div>
+  </body>
+</html>
